@@ -71,310 +71,343 @@ class _HomeState extends State<Home> {
                   child: Center(child: Text('Disciplines and Domains', style: TextStyle(fontWeight:FontWeight.bold, fontSize: 50),)),
                 ),
               ),
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12),
-                  gradient: LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [
-                      Colors.cyanAccent,Colors.blueAccent
-                    ]
-                  )
-                ),
-                child: const Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.home_work_outlined, size: 60,),
-                    Text("Civil Engineering", style: TextStyle(fontSize: 30),)
-                  ],
-                ),
-              ),
-            ),
-            SizedBox(height: 12,),
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                alignment: Alignment.center,
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    gradient: const LinearGradient(
-                        begin: Alignment.topLeft,
-                        end: Alignment.topRight,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
-                    )
-                ),
-                child: const Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Icon(Icons.cell_tower_sharp, size: 60,),
-                    Text("Electronics & Communication", style: TextStyle(fontSize: 30),)
-                  ],
-                ),
-              ),
-            ),
-            SizedBox(height: 12,),
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     gradient: LinearGradient(
-                        begin: Alignment.topRight,
-                        end: Alignment.bottomLeft,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [
+                        Colors.cyanAccent,Colors.blueAccent
+                      ]
                     )
-                ),child: const Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(Icons.engineering, size: 60,),
-                  Text("Mechanical Engineering", style: TextStyle(fontSize: 30),)
-                ],
-              ),
-              ),
-            ),
-            SizedBox(height: 12,),
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    gradient: LinearGradient(
-                        begin: Alignment.bottomRight,
-                        end: Alignment.topLeft,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
-                    )
-                ),
-                child: const Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Icon(Icons.electrical_services_outlined, size: 60,),
-                    Text("Electronics and Communication", style: TextStyle(fontSize: 30),)
-                  ],
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.home_work_outlined, size: 60,),
+                      Text("Civil Engineering", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
                 ),
               ),
             ),
             SizedBox(height: 12,),
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
-                    )
-                ),
-                child: const Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.computer_rounded, size: 60,),
-                    Text("Computer Science and Engineering", style: TextStyle(fontSize: 30),)
-                  ],
-                ),
-              ),
-            ),
-            SizedBox(height: 12,),
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
-                    )
-                ),
-                child: const Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.computer, size: 60,),
-                    Text("Information Technology", style: TextStyle(fontSize: 30),)
-                  ],
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  alignment: Alignment.center,
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: const LinearGradient(
+                          begin: Alignment.topLeft,
+                          end: Alignment.topRight,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Icon(Icons.cell_tower_sharp, size: 60,),
+                      Text("Electronics & Communication", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
                 ),
               ),
             ),
             SizedBox(height: 12,),
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
-                    )
-                ),
-                child: const Column(
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: LinearGradient(
+                          begin: Alignment.topRight,
+                          end: Alignment.bottomLeft,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),child: const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(Icons.settings_suggest_outlined, size: 60,),
-                    Text("Mining Engineering", style: TextStyle(fontSize: 30),)
+                    Icon(Icons.engineering, size: 60,),
+                    Text("Mechanical Engineering", style: TextStyle(fontSize: 30),)
                   ],
                 ),
+                ),
+              ),
+            ),
+            SizedBox(height: 12,),
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: LinearGradient(
+                          begin: Alignment.bottomRight,
+                          end: Alignment.topLeft,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Icon(Icons.electrical_services_outlined, size: 60,),
+                      Text("Electronics and Communication", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(height: 12,),
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.computer_rounded, size: 60,),
+                      Text("Computer Science and Engineering", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(height: 12,),
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.computer, size: 60,),
+                      Text("Information Technology", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(height: 12,),
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.settings_suggest_outlined, size: 60,),
+                      Text("Mining Engineering", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
 
-              ),
-            ),
-            SizedBox(height: 12,),
-
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
-                    )
                 ),
-                child: const Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.pets, size: 60,),
-                    Text("Petroleum Technology", style: TextStyle(fontSize: 30),)
-                  ],
-                ),
-
               ),
             ),
             SizedBox(height: 12,),
 
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
-                    )
-                ),
-                child: const Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.forest_rounded, size: 60,),
-                    Text("Agricultural Engineering", style: TextStyle(fontSize: 30),)
-                  ],
-                ),
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.pets, size: 60,),
+                      Text("Petroleum Technology", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
 
+                ),
               ),
             ),
             SizedBox(height: 12,),
 
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
-                    )
-                ),
-                child: const Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.report_problem_outlined, size: 60,),
-                    Text("Artificial Intelligence and Machine Learning", style: TextStyle(fontSize: 30),)
-                  ],
-                ),
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.forest_rounded, size: 60,),
+                      Text("Agricultural Engineering", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
 
+                ),
               ),
             ),
             SizedBox(height: 12,),
-            Card(
-              margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-              elevation: 15,
-              shadowColor: Colors.black,
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    gradient: const LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.cyanAccent,Colors.blueAccent
-                        ]
-                    )
-                ),
-                child: const Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.data_exploration, size: 60,),
-                    Text("Data Science", style: TextStyle(fontSize: 30),)
-                  ],
-                ),
 
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.report_problem_outlined, size: 60,),
+                      Text("Artificial Intelligence and Machine Learning", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
+
+                ),
+              ),
+            ),
+            SizedBox(height: 12,),
+            GestureDetector(
+              onTap: (){},
+              child: Card(
+                margin: EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                elevation: 15,
+                shadowColor: Colors.black,
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: const LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.cyanAccent,Colors.blueAccent
+                          ]
+                      )
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.data_exploration, size: 60,),
+                      Text("Data Science", style: TextStyle(fontSize: 30),)
+                    ],
+                  ),
+
+                ),
               ),
             ),
             SizedBox(height: 12,),
